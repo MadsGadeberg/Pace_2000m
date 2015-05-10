@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="7" pc="268435458" symbol="initialize"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="6" pc="268435458" symbol="initialize"/>
 <entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="14" pc="268435474" symbol="compute"/>
-<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mApp.mc" lineNum="15" pc="268435489" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="5" pc="268435580" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268435567" symbol="&lt;init&gt;"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="18" pc="268435497" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="19" pc="268435501" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="20" pc="268435508" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="22" pc="268435515" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="23" pc="268435522" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="26" pc="268435529" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="27" pc="268435550" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="28" pc="268435560" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="30" pc="268435579" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="31" pc="268435598" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="33" pc="268435620" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mView.mc" lineNum="36" pc="268435626" symbol="calc2KTime"/>
+<entry filename="/Volumes/Data/Mads/Documents/Pace_2000m/source/Pace_2000mApp.mc" lineNum="15" pc="268435687" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="5" pc="268435778" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268435765" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -52,7 +64,7 @@
 <entry id="8389548" symbol="&lt;tha&gt;"/>
 <entry field="true" id="8388807" symbol="BLE_REQUEST_TOO_LARGE"/>
 <entry id="8388819" method="true" symbol="makeImageRequest"/>
-<entry id="10" module="true" symbol="Menus"/>
+<entry id="11" module="true" symbol="Menus"/>
 <entry id="3" module="true" symbol="globals_Rez_Drawables"/>
 <entry id="8388630" module="true" symbol="Toybox_Position"/>
 <entry id="8389354" symbol="&lt;dut&gt;"/>
@@ -97,7 +109,7 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="13" symbol="AppName"/>
+<entry field="true" id="14" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
@@ -113,7 +125,7 @@
 <entry id="8389184" method="true" symbol="drawLine"/>
 <entry id="8389250" symbol="timestamp"/>
 <entry id="8388877" method="true" symbol="createSession"/>
-<entry field="true" id="12" symbol="LauncherIcon"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
 <entry field="true" id="8389380" symbol="OBSCURE_TOP"/>
 <entry field="true" id="8389201" symbol="MSG_ID_SEARCH_TIMEOUT"/>
@@ -222,7 +234,7 @@
 <entry id="8389142" method="true" symbol="getProfile"/>
 <entry id="8389188" method="true" symbol="fillRectangle"/>
 <entry id="8388729" object="true" symbol="Info"/>
-<entry id="11" module="true" symbol="Layouts"/>
+<entry id="12" module="true" symbol="Layouts"/>
 <entry id="8388710" object="true" symbol="Stats"/>
 <entry field="true" id="8389152" symbol="FONT_XTINY"/>
 <entry id="8389189" method="true" symbol="fillRoundedRectangle"/>
@@ -317,6 +329,7 @@
 <entry id="8389344" symbol="seconds"/>
 <entry field="true" id="8388854" symbol="SUB_SPORT_TRACK"/>
 <entry id="8389432" object="true" symbol="CalculatedCrankCadence"/>
+<entry id="10" method="true" symbol="calc2KTime"/>
 <entry field="true" id="8388651" symbol="session"/>
 <entry field="true" id="8388868" symbol="SUB_SPORT_OPEN_WATER"/>
 <entry id="8389251" method="true" symbol="getPayload"/>
@@ -957,6 +970,10 @@
 <functionEntry name="compute">
 <param id="info"/>
 <documentation><![CDATA[<div class="description"> The given info object contains all the current workout<br/> information. Calculate a value and return it in this method.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="calc2KTime">
+<param id="speed"/>
+<documentation/>
 </functionEntry>
 <functionEntry name="onStart">
 <documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
